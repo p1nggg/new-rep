@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.3.0/dist/ol.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <title>ART</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <a href="landing.html"><h1>Галерея ART</h1></a>
+        <hr size="2px" width="100%" />
+      </div>
+
+      <nav>
+        <a href="Exhibitions.html" class="nav__item">Выставки</a>
+        <a href="#" class="nav__item">События</a>
+        <a href="#" class="nav__item">Художественные ярмарки</a>
+        <a href="#" class="nav__item">Публикации</a>
+        <a href="#" class="nav__item">Новости</a>
+        <a href="#" class="nav__item">Местонахождение</a>
+        <a href="login.html" class="nav__item">Войти</a>
+      </nav>
+    </header>
+    <main>
+      <section class="carusel">
+        <div class="btn__left">
+          <button class="btn btn-prev">
+            <img src="/images/svg/arrow-left-335-svgrepo-com.svg" />
+          </button>
+        </div>
+        <div class="carusel__container">
+          <div class="slide__hr">
+            <div class="slide__hr1 m"></div>
+            <div class="slide__hr2 m"></div>
+            <div class="slide__hr3 m"></div>
+          </div>
+          <div class="carusel__slide">
+            <div class="carusel__img first__slide">
+              <div class="slide__text">
+                <h2 class="slide__h2">И.Е Репин и В.М Васнецов</h2>
+                <p class="slide__p">11 мая - 1 июня 2023</p>
+              </div>
+            </div>
+            <div class="carusel__img second__slide">
+              <div class="slide__text">
+                <h2 class="slide__h2">И.И Левитан</h2>
+                <p class="slide__p">2 июня - 1 июля 2023</p>
+              </div>
+            </div>
+            <div class="carusel__img third__slide">
+              <div class="slide__text">
+                <h2 class="slide__h2">И.К Айвазовский</h2>
+                <p class="slide__p">2 июля - 23 июля 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn__right">
+          <button class="btn btn-next" style="z-index: 1">
+            <img src="/images/svg/arrow-left-335-svgrepo-com (1).svg" />
+          </button>
+        </div>
+      </section>
+
+      <section class="exhibitions">
+        <div class="exhibitions__header">
+          <h2 class="exhibitions__h2">Выставки</h2>
+          <hr size="2px" width="300px" class="ex_hr1" />
+          <hr size="2px" width="300px" class="ex_hr2" />
+        </div>
+        <div class="exhibitions__container">
+          <div class="exhibitions__item">
+            <img src="/images/img/vist1.jpg" />
+            <a href="#" class="exhibition__h3">"Эволюция" Марка Робинсона</a>
+            <p class="exhibition__text">11.07.2023</p>
+          </div>
+          <div class="exhibitions__item">
+            <img src="/images/img/vist2.jpg" />
+            <a href="#" class="exhibition__h3">Иван Крамской и его работы</a>
+            <p class="exhibition__text">15.08.2023</p>
+          </div>
+          <div class="exhibitions__item">
+            <img src="/images/img/vist3.jpg" />
+            <a href="#" class="exhibition__h3">Произведения Василия Поленова</a>
+            <p class="exhibition__text">23.09.2023</p>
+          </div>
+        </div>
+        <div class="exhibitions__button">
+          <button type="button" class="exhibitions__button">
+            Смотреть всё
+          </button>
+        </div>
+      </section>
+
+      <section class="ones__exhibition">
+        <div class="ones__exhibition__text">
+          <p class="ones__exhibition__mini">Выставка</p>
+          <h2 class="ones__exhibition__h2">Исаак Ильич Левитан</h2>
+          <p class="ones__exhibition__p">
+            Исаак Ильич знаменитый российский художник. Его<br />
+            картины – своего рода эталон отечественной<br />
+            пейзажной живописи. В своих произведениях Левитан<br />
+            сумел не только мастерски отобразить увиденную им<br />
+            красоту русской природы, но и передать зрителю<br />
+            тончайшие оттенки своего настроения.<br />
+          </p>
+          <p class="ones__exhibition__p">
+            Выставка пройдет с 2 июня - по 1 июля 2023 года Улица Пушкина 66
+            Телефон: <span>+79976758982</span>
+          </p>
+        </div>
+        <div class="ones__exhibition__image">
+          <img src="/images/img/author.png" alt="author" class="ones__image" />
+        </div>
+      </section>
+
+      <section class="events">
+        <div class="events__header">
+          <h2 class="events__h2">События</h2>
+          <hr size="2px" width="300px" class="hr1" />
+          <hr size="2px" width="300px" class="hr2 header-hr" />
+        </div>
+        <div class="events__container">
+          <div class="events__FirstRow flex">
+            <div class="events__item menu-item">
+              <img src="/images/img/events1.jpg" />
+              <div class="msc">
+                <p class="events__theme">Достижения</p>
+                <p class="events__text">02.05.2023</p>
+              </div>
+              <a href="#" class="events__h3">«Логос»</a>
+            </div>
+            <div class="events__item menu-item">
+              <img src="/images/img/events2.jpg" />
+              <div class="msc">
+                <p class="events__theme">Открытия</p>
+                <p class="events__text">17.04.2023</p>
+              </div>
+              <a href="#" class="events__h3">Пушкинский музей</a>
+            </div>
+            <div class="events__item menu-item">
+              <img src="/images/img/events3.jpg" />
+              <div class="msc">
+                <p class="events__theme">Проишествия</p>
+                <p class="events__text">28.04.2023</p>
+              </div>
+              <a href="#" class="events__h3">Moscow Jazz Festival</a>
+            </div>
+          </div>
+          <div class="events__SecondRow flex">
+            <div class="events__item menu-item">
+              <img src="/images/img/events4.jpg" />
+              <div class="msc">
+                <p class="events__theme">Разговоры</p>
+                <p class="events__text">17.09.2023</p>
+              </div>
+              <a href="#" class="events__h3">Театр им. Брянцева</a>
+            </div>
+            <div class="events__item menu-item">
+              <img src="/images/img/events5.jpg" />
+              <div class="msc">
+                <p class="events__theme">Разговоры</p>
+                <p class="events__text">21.04.2023</p>
+              </div>
+              <a href="#" class="events__h3">Фестиваль «Ойка»</a>
+            </div>
+            <div class="events__item menu-item">
+              <img src="/images/img/events6.jpg" />
+              <div class="msc">
+                <p class="events__theme">Достижения</p>
+                <p class="events__text">17.03.2023</p>
+              </div>
+              <a href="#" class="events__h3">«Выкса-фестиваль»</a>
+            </div>
+          </div>
+        </div>
+        <div class="exhibitions__button events__button">
+          <button type="button" class="exhibitions__button">
+            Смотреть всё
+          </button>
+        </div>
+      </section>
+
+      <section class="publications">
+        <div class="publications__header">
+          <h2 class="publications__h2">Публикации</h2>
+          <hr size="2px" width="300px" class="ex_hr1" />
+          <hr size="2px" width="300px" class="ex_hr2" />
+        </div>
+        <div class="publications__container">
+          <div class="publ__item">
+            <img src="/images/img/publ1.jpg" />
+            <p class="publ__h3">Стихи русских символистов</p>
+            <p class="publ__date">Произведения Александра Блока, Андрея Белого, Зинаиды Гиппиус и других поэтов</p>
+          </div>
+          <div class="publ__item">
+            <img src="/images/img/publ2.jpg" />
+            <p class="publ__h3">Лекции о Льве Толстом</p>
+            <p class="publ__date">Портрет писателя на фоне эпохи, его отношения с семьей и главные мотивы творчества</p>
+          </div>
+          <div class="publ__item">
+            <img src="/images/img/publ3.jpg" />
+            <p class="publ__h3">Лирика о войне</p>
+            <p class="publ__date">Стихи Константина Симонова, Анны Ахматовой и других поэтов</p>
+          </div>
+        </div>
+        <div class="exhibitions__button">
+          <button type="button" class="exhibitions__button">
+            Смотреть всё
+          </button>
+        </div>
+      </section>
+      <section class="artFairs">
+        <div class="art__header">
+          <h2 class="art__h2">Художественные Ярмарки</h2>
+          <hr size="2px" width="300px" class="ex_hr1" />
+          <hr size="2px" width="300px" class="ex_hr2" />
+        </div>
+        <div class="artFairs__container">
+          <div class="art__item">
+            <div class="art__img">
+              <img src="/images/img/art1.jpg" alt="1" />
+            </div>
+            <div class="art__text">
+              <p class="art__date art__margin">12.08.2023</p>
+              <p class="art__time art__margin">11:20</p>
+              <h3 class="art__title art__margin">Выставка «Произведения Михаила Васильевича Нестерова»</h3>
+            </div>
+          </div>
+          <div class="art__item">
+            <div class="art__img">
+              <img src="/images/img/art2.jpg" alt="1" />
+            </div>
+            <div class="art__text">
+              <p class="art__date art__margin">27.06.2023</p>
+              <p class="art__time art__margin">14:00</p>
+              <h3 class="art__title art__margin">Выставка «Рамиль Мигранов. Живопись»</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="artist">
+        <div class="artist__header">
+          <h2 class="artist__h2">Магазин Галереи ART</h2>
+          <hr size="2px" width="300px" class="ex_hr1" />
+          <hr size="2px" width="300px" class="ex_hr2" />
+        </div>
+        <div class="artist__container">
+          <div class="artist__img">
+            <img src="/images/img/image 8.png" alt="artist" />
+          </div>
+          <div class="artist__p">
+            <p class="artist__text">
+              В нашем магазине вы можете приобрести:<br />
+              краски любых видов<br />
+              мольберты разных компаний<br />
+              холсты любых форматов<br />
+              Для настоящего художника важно качество красок и средств для
+              рисования, поэтому мы предлагаем наши товары лучшего качества и по
+              низким ценам!
+            </p>
+            <a href="location" class="artist__button"><p>Купить</p></a>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="news__header">
+          <h2 class="news__h2">Новости</h2>
+          <hr size="2px" width="300px" class="ex_hr1" />
+          <hr size="2px" width="300px" class="ex_hr2" />
+        </div>
+        <div class="news__container">
+          <div class="news__first">
+            <div class="news__item">
+              <img src="/images/img/news1.jpg" />
+              <div class="small__title">
+                <p class="name">Новость</p>
+                <p class="date">12 января, 2023</p>
+              </div>
+              <div class="title">«Евгений Халдей»</div>
+              <div class="desc">Большую ретроспективу знаменитого советского фотографа Евгения Халдея (1917–1997), в которую вошло 400 его снимков</div>
+            </div>
+            <div class="news__item">
+              <img src="/images/img/news4.jpg" />
+              <div class="small__title">
+                <p class="name">Факты</p>
+                <p class="date">11 февраля, 2023</p>
+              </div>
+              <div class="title">Музейный рейтинг</div>
+              <div class="desc">Приоритеты, тренды, активности и другие перспективные формы работы отечественных музеев — в нашем обзоре</div>
+            </div>
+          </div>
+          <div class="news__second">
+            <div class="news__item">
+              <img src="/images/img/news2.jpg" />
+              <div class="small__title">
+                <p class="name">Факты</p>
+                <p class="date">17 марта, 2023</p>
+              </div>
+              <div class="title">Дар Георгия Костаки</div>
+              <div class="desc">Когда в 1977 году Георгий Костаки (1913–1990) передавал часть своей коллекции в дар Третьяковской галерее.</div>
+            </div>
+            <div class="news__item">
+              <img src="/images/img/news3.jpg" />
+              <div class="small__title">
+                <p class="name">События</p>
+                <p class="date">14 апреля, 2023</p>
+              </div>
+              <div class="title">Камень Судьбы</div>
+              <div class="desc">В Вестминстерском аббатстве в Лондоне 6 мая пройдет коронация Карла III, последний в западном мире сохранившийся с древности коронационный обряд.</div>
+            </div>
+          </div>
+        </div>
+        <div class="news__button">
+          <button type="button" class="exhibitions__button">
+            Смотреть всё
+          </button>
+        </div>
+      </section>
+      <section class="location">
+        <div class="loc__description">
+          <div class="loc__rect">
+            <div class="loc__information">
+              <div class="loc__title">Галерея ART</div>
+            <div class="loc__office">Главное здание</div>
+            <div class="loc__location">3 этаж ул. Чернышевского, 75, Уфа</div>
+            <div class="loc__contacts">
+              <a href="#">+79777777777</a>
+              <a href="#">gallery.art@gmail.com</a>
+            </div>
+            <div class="loc__apps">
+              <a href="#">
+                <img
+                  src="/images/svg/communication_message_socialmedia_chat_telegram_icon_218852.svg"
+                  alt="tg"
+              /></a>
+              <a href="#">
+                <img
+                  src="/images/svg/vk_social_network_interaction_communication_social_media_icon_196628.svg"
+                  alt="vk"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/images/svg/Youtube_Rounded_icon-icons.com_61575.svg"
+                  alt="yt"
+              /></a>
+            </div>
+            <div class="bLoc__button">
+              <button type="button" class="loc__button">Связь с нами</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="loc__map">
+          <div id="map"></div>
+        </div>
+      </section>
+      <section class="mailing">
+        <h2>Подпишитесь на нашу рассылку</h2>
+        <div class="forms">
+          <form>
+            <input class="mailing__input" type="email" placeholder="Email*">
+            <button type="button" class="mailing__button">Подписаться</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__contacts height">
+        <a href="#">Галерея ART</a>
+        <div class="main_contacts">
+          <a href="#">+79777777777</a>
+          <a href="#">gallery.art@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer__misc height">
+        <a href="#" class="footer__item">Выставки</a>
+        <a href="#" class="footer__item">События</a>
+        <a href="#" class="footer__item">Художественные ярмарки</a>
+        <a href="#" class="footer__item">Публикации</a>
+        <a href="#" class="footer__item">Новости</a>
+        <a href="#" class="footer__item">Местонахождение</a>
+      </div>
+      <div class="footer__follow height">
+        <p>Подписывайтесь на нас</p>
+        <div class="loc__apps footer__apps">
+          <a href="#">
+            <img
+              src="/images/img/telegram-svgrepo-com.png"
+              alt="tg"
+          /></a>
+          <a href="#">
+            <img
+              src="/images/img/vk-32.png"
+              alt="vk"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="/images/img/youtube-168-svgrepo-com.png"
+              alt="yt"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/js/script.js"></script>
+</html>

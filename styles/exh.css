@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav__item,.title>a{
+    text-decoration: none;
+    color: #2D353D;
+    font-family: 'Playfair Display';
+    line-height: 19px;
+    font-size: 17px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+    margin-top: 1vh;
+}
+nav a:hover{
+    color: #FFD43D;
+}
+h1{
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 52px;
+    color: #2D353D;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+
+}
+.title{
+    width: 100%;
+}
+.land__image{
+    width: 100%;
+    background: url('/images/img/title.png');
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.exh__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+}
+.ex_hr2{
+    margin-left: 150px;
+}
+.land__image{
+    margin-top: 5vh;
+}
+footer{
+    height: 25vh;
+    background: #1a1d20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3em;
+}
+.height{
+    height: 40%;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__misc{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer a,p{
+    text-decoration: none;
+    color: white;
+}
+.main_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFF7D0;
+
+}
+.main_contacts a{
+    color: #fde672;
+    text-decoration: underline;
+}
+.footer__follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__apps img{
+    width: 35px;
+    height: 35px;
+}
